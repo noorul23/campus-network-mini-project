@@ -1,116 +1,93 @@
-# SDN-Inspired Secure Campus Network Design (Cisco Packet Tracer)
+# SDN-Inspired Secure Campus Network Design
 
-This repository contains a **mini-project focused on the design and simulation of a secure campus network topology for our university IT department**, inspired by **Software Defined Networking (SDN)** architectural concepts. The network was **designed and validated using Cisco Packet Tracer** as part of an academic mini-project.
+This repository contains a mini-project focused on the design and simulation of a secure campus network topology for an academic setting, inspired by Software Defined Networking (SDN) architectural concepts.
 
-> ⚠️ **Important Note:**  
-> ⚠️ *This work focuses strictly on **network design and simulation** and does **not include real-world SDN controller implementation or programmable network devices**.*
-
----
-
-## 📄 Abstract
-
-This project presents a secure campus network topology for  our university IT department, designed and simulated using Cisco Packet Tracer, inspired by Software Defined Networking (SDN) architectural concepts. The network includes multiple IT labs, administrative offices, and a conference hall, all segmented using VLANs and interconnected through a **Router-on-a-Stick configuration with RIP as the dynamic routing protocol**. The design demonstrates **centralized monitoring concepts, secure subnet isolation**, and **verified inter-department communication using ICMP testing**. This work focuses only on **network design and simulation**, without real-world SDN controller implementation.
+The network was designed and validated using Cisco Packet Tracer as part of an academic mini-project.
 
 ---
 
-## 📌 Project Objectives
+## Project Scope
 
-- Design a **secure campus network** for our university IT department  
-- Apply **SDN-inspired centralized architectural concepts**  
-- Implement **VLAN-based segmentation**  
-- Enable **inter-VLAN routing using RIP**  
-- Simulate and **verify connectivity using Cisco Packet Tracer**
+This project focuses on:
 
----
+- network design and simulation
+- VLAN-based segmentation
+- inter-VLAN communication
+- routing configuration
+- connectivity verification
 
-## 🏗️ SDN Architecture Overview
-
-The network follows a **three-layer SDN-inspired model**:
-
-- **Application Layer** – Network monitoring & logical control (conceptual)
-- **Control Layer** – SDN Controller (conceptual)
-- **Infrastructure Layer** – Routers, switches, PCs, printers
-
-### 🔹 SDN Architecture Diagram
-![SDN Architecture](arch.png)
+It does not include a real-world SDN controller implementation or programmable network devices.
 
 ---
 
-## 🌐 Network Topology Design
+## Overview
 
-The simulated network represents multiple labs, a HoD room, and a conference hall connected via routers and switches.
+The simulated campus network represents an academic environment with multiple user groups and network segments connected through routers and switches.
 
-### 🔹 Campus Network Topology
-![Network Topology](topology.png)
+The design demonstrates secure subnet separation, logical network segmentation, and basic verification of connectivity through simulation.
 
 ---
 
-## 📊 Simulation & Verification
+## Project Objectives
 
-Basic network connectivity and routing were validated using:
+- Design a secure campus network topology
+- Apply SDN-inspired architectural concepts
+- Implement VLAN-based segmentation
+- Enable inter-VLAN routing
+- Simulate and verify connectivity in Cisco Packet Tracer
+
+---
+
+## Network Design
+
+The simulated network includes:
+
+- lab segments
+- administrative segments
+- conference or shared network areas
+- router and switch-based interconnection
+
+The design was created to demonstrate network segmentation and controlled communication between subnets.
+
+---
+
+## Simulation and Verification
+
+The network was validated using:
 
 - ICMP ping tests
-- RIP routing configuration
+- routing configuration
+- packet-level simulation in Cisco Packet Tracer
 
-### ✅ Ping Verification Result
-![Ping Verification](ping-verify.png)
-
-### ✅ RIP Routing Command
-![RIP Command](rip%20command.png)
+These checks were used to confirm connectivity between network segments.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools and Technologies Used
 
-- Cisco Packet Tracer  
-- Routing Information Protocol (RIP)  
-- ICMP (Ping Testing)  
-- SDN Conceptual Architecture  
-- Network Topology Design  
-
----
-
-## 👥 Project Nature & Contributions
-
-This was a **team project** completed collaboratively.
-
-### ✅ Equal Contribution By:
-- **[Noorul Hassan](https://github.com/noorul23)**  
-- **[Muhammad Thahir](https://github.com/Thahir25)**  
-
-Both contributors were **equally involved** in:
+- Cisco Packet Tracer
+- VLAN configuration
+- Router-on-a-Stick setup
+- RIP routing
+- ICMP ping testing
+- SDN-inspired conceptual architecture
 - Network topology design
-- SDN architecture mapping
-- Packet routing configuration
-- Simulation testing & verification
-- Documentation & presentation preparation
 
 ---
 
-## 📚 References
+## Project Nature
 
-The following research works were studied for conceptual understanding:
-
-
-
-[1] H. Kim and N. Feamster, "Improving network management with software defined networking," IEEE Communications Magazine, vol. 51, no. 2, pp. 114-119, 2013. doi: 10.1109/MCOM.2013.6461195.
-
-[2] Open Networking Foundation, Software-Defined Networking: The New Norm for Networks, 2012. [Online]. Available: https://opennetworking.org/sdn-resources/sdn-definition
-
-[3] T. Benson, A. Akella, and D. A. Maltz, "Network traffic characteristics of data centers in the wild," Proceedings of the 10th ACM SIGCOMM Conference on Internet Measurement, Melbourne, Australia, 2010, pp. 267–280. doi: 10.1145/1879141.1879175.
-
-[4] A. Shalimov, D. Zimarina, A. Zuikov, V. Pashkov, and R. Smeliansky, "Advanced study of OpenFlow-based Software-Defined Networks," in Proceedings of the 9th Central and Eastern European Software Engineering Conference in Russia (CEE-SECR '13), Moscow, Russia, 2013, pp. 1–6. doi: 10.1145/2556610.2556627.
- 
-
-(References were used strictly for academic learning purposes.)
+This was a collaborative academic mini-project completed for coursework purposes.
 
 ---
 
-## 👨‍💻 Contributors
+## Contributors
 
-- **[Noorul Hassan](https://github.com/noorul23)**
-- **[Muhammad Thahir](https://github.com/Thahir25)**
+- Noorul Hassan
+- Muhammad Thahir
 
 ---
 
-If you find this project useful, feel free to ⭐ the repository!
+## License
+
+MIT License
