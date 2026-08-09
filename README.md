@@ -83,9 +83,8 @@ This was a collaborative academic mini-project completed for coursework purposes
 
 ## Contributors
 
-- Noorul Hassan
-- Muhammad Thahir
-
+- **[Noorul Hassan](https://github.com/noorul23)**
+- **[Muhammad Thahir](https://github.com/Thahir25)**
 ---
 
 ## License
